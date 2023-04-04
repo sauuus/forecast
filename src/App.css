@@ -1,0 +1,59 @@
+.navbar .navbar-nav .nav-item .nav-link {
+  width: 10px;
+  padding: 20px 50px;
+  justify-content: space-between;
+  }
+  
+  .navbar-dark .navbar-nav .nav-item .nav-link:focus,
+  .navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(35, 122, 189);
+  }
+  
+  .top-container{
+    margin-left: 57px;
+    margin-top: 15px;
+  }
+
+ 
+  h1{
+    font-size: 6rem;
+
+  }
+
+  .container{
+    width: 500px;
+    height: 400px;   
+    position: fixed;
+    background-color: rgb(82, 118, 139);
+    border-radius: 10%;
+    color:white;
+  }
+
+.app.top{
+  width: 100%;
+  margin: 1rem auto;
+  
+}
+.app .description{
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+  color: rgb(255, 255, 255);
+  font: 1.5rem 'Helvetica Neue UltraLight';
+}
+.app .bottom {
+  display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   margin-left: 10px;
+   margin-right: 10px;
+/* width: 100%; */
+
+   padding: 10px;
+   border-radius: 12px;
+   background-color: rgba(255, 255, 255, 0.342);
+ }
+ .bold {
+   font-weight: 700;
+ }
